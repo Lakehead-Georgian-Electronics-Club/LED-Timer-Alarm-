@@ -2,7 +2,7 @@
 
 #### Intro:  
 Everybody uses alarms, obviously right but, everyone has definitely had an experience where the alarm hasn’t woken them up. My phone has a maximum decibel rating of 100 db. My piezo buzzer can go up to 115 db . Also, it is a sound I'm not used to and I can always change the pattern of buzzes so we keep it fresh. I’m also very extra about these sorts of gadgets so why not be able to also visualize the time rather than a sound because that's more of a mental reminder? Reading this I now feel as if an alarm clock is a very specific use for this device whereas a timer or time-keeping device is more of a general application that can be programmed to be an alarm clock so let’s do that.
-
+{
 #define Buzzer 13
 
 byte ledPins[] = {15, 2, 0, 4, 5, 18, 19, 21, 22, 23}; /// for the operation of led lights
@@ -60,4 +60,5 @@ void loop() //keep looping unit exit is programmed in
  }
 
 
+}
 }
